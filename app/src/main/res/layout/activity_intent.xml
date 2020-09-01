@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcc">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ITZY MEMBER"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textSize="12pt"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/yeji"
+        android:layout_marginLeft="20dp"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:src="@drawable/yejipict"/>
+    <ImageView
+        android:id="@+id/lia"
+        android:layout_marginLeft="40dp"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:src="@drawable/liapict"/>
+    <ImageView
+        android:id="@+id/ryujin"
+        android:layout_marginLeft="40dp"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ryujinpict"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/table1"
+        android:layout_below="@id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="38dp">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HWANG YEJI"/>
+            <TextView
+                android:layout_marginLeft="67dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIA"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RYUJIN"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="황예지"/>
+            <TextView
+                android:layout_marginLeft="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최지수"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="신류진"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@id/table1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/chaeryoung"
+            android:layout_marginLeft="80dp"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:src="@drawable/chaeryoungpict"/>
+
+        <ImageView
+            android:id="@+id/yuna"
+            android:layout_marginLeft="45dp"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:src="@drawable/yunapict"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_below="@id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_marginLeft="75dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHAERYOUNG"/>
+            <TextView
+                android:layout_marginLeft="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YUNA"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_marginLeft="103dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이채령"/>
+            <TextView
+                android:layout_marginLeft="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="신유나"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

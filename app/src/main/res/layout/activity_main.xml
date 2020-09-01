@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffccffff">
+
+    <TextView
+        android:id="@+id/midzy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="WELCOME MIDZY"
+        android:textSize="15pt"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/itzy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/itzy"
+        android:layout_below="@+id/midzy"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:layout_below="@+id/itzy"
+        android:id="@+id/explicititzy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ITZY Member"/>
+
+    <Button
+        android:layout_below="@id/explicititzy"
+        android:id="@+id/explicititzy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="MV ITZY"/>
+
+
+</RelativeLayout>
